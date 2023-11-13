@@ -1,1 +1,1 @@
-Accès au site https://louanngdv.github.io/index.html
+Accès au site https://louanngdv.github.io/
