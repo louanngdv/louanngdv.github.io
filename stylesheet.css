@@ -1,0 +1,58 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(240, 234, 231);
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: rgb(79, 114, 101);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.header a{
+    margin-left: 16px;
+    text-decoration: none;
+    color:white;
+}
+
+nav a{
+    float: right;
+}
+
+h1,p{
+    max-width: 1400px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.liendanstexte{
+    text-decoration: none;
+    color: rgb(79, 114, 101);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.grid{
+    padding:24px;
+    display:grid;
+    margin: 10px;
+    grid-template-columns: repeat(auto-fill,400px );
+    gap:24px;
+}
